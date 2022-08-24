@@ -1,2 +1,3 @@
 # HTML_FOR_ALL
-Here I have uploaded all(majority) the concept of HTML from basic to advanced in Hindi + English format so that it is easy to understand.
+HTML is the basic fundamental for web development tecnology. It gives us the structural view of website.
+In this I have covered list, tables, forms, svg command, iframe, add audio & video, button and many more which help us to get the idea behind it.
