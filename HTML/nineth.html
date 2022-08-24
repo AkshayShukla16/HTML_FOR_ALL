@@ -1,0 +1,72 @@
+<!Doctype html>
+<head>
+    <title>Forms Concept</title>
+</head>
+    <body>
+        <h1>Registration Forms</h1>
+        <forms action="" method="GET">
+            Username <input type="text" name=""><br>
+            Password <input type="password" name="" placeholder="Password"><br>
+
+            Gender
+            <label>  <!--here <label> tags play the important role as if we click on letter written 
+                then it also get selected in both check box and radio button, if we don't use label 
+            tag then specifically we should tick on that radio or checkbox button-->
+                <input type="radio" name="gender">Male   </label>
+            <label><input type="radio" name="gender">Female</label>
+  <br>
+            Language Known
+            <label>
+                <input type="checkbox" name="">English</label>
+            <label><input type="checkbox" name="">Hindi</label>
+            <label><input type="checkbox" name="">Marathi</label>
+            <label><input type="checkbox" name="">Punjabi
+            </label>
+<br>
+            Upload Your Document
+            <input type="file" multiple="" name=""><br>
+            <input type="hidden" values="Akshay12@"><br>
+
+            Year of Experience
+            <select>
+                <option>Select</option>
+            <optgroup label="fix">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </optgroup>
+            <optgroup label="Range">
+                <option>10-20</option>
+                <option>20-30</option>
+                <option>30-40</option>
+                <option>40-50</option>
+            </optgroup>
+            </select>
+
+            <button>Check Data</button><br>
+            <input type="reset" value="Clear form">
+            <input type="submit"><br>
+
+            Description <textarea rows="1">
+
+            </textarea>
+            
+        </forms>
+        <hr>
+
+        <forms method="POST">
+
+            <input type="datetime-local" name="">
+            <input type="month" name=""><br>
+            <input type="time" name=""><br>
+            <input type="week" name=""><br>
+            <input type="number" name="" min="0" max="12" step="2"><br>
+            <input type="range" name="Range" min="0" max="8"><br>
+            <input type="email" name="Email" required><br>
+            <input type="url" name=""><br>
+            <input type="color" name=""><br>
+            <input type="submit" name="">
+        </forms>
+    </body>
+</head>
